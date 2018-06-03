@@ -29,12 +29,21 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+#banner1{
+    transition: 0.5s;
+
+}
 #banner{
     background: url(../img/banner-bg.jpg) no-repeat center top;
     background-size: cover;
+
     min-height: 630px;
+    transition: 0.5s;
+    
 }
 .bg-color{
+    transition: 0.5s;
+    
     background-color: RGBA(0, 0, 0, 0.61);
     min-height: 630px;
 }
@@ -64,7 +73,7 @@ table {
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: rgb(90, 47, 47);
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;

@@ -1,9 +1,16 @@
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").style.width = "20%";
+    //"250px";
+    document.getElementById("banner1").style.width = "80%";
+    document.getElementById("bg-color").style.width = "80%";
+    //"750px";
+    bg-color
 }
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("banner1").style.width = "100%";
+    document.getElementById("bg-color").style.width = "100%";
 }
 
 (function ($) {
